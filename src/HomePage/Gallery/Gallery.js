@@ -15,6 +15,7 @@ const Gallery = () => {
                     <Link to='/nature'><Button variant="secondary" >Bird</Button></Link>
                 </ButtonGroup>
             </div>
+            <Button>See All</Button>
         </div>
     );
 };
