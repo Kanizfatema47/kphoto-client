@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../images/logo (1).png'
 import './Header.css'
 
 const Header = () => {
@@ -22,7 +23,7 @@ const Header = () => {
             <header className={navbar ? 'header active' : 'header'}>
                 <div className="navbar container d-flex flex-row justify-content-between align-items-center">
                     <nav>
-                        <Link className='' to='/'>Logo</Link>
+                        <Link className='' to='/'><img src={logo} alt="" style={{'color': `#5F9EA0`}} /> </Link>
                     </nav>
                     <nav>
                         <Link className='' to='/'>Home</Link>
