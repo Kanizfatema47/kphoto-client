@@ -7,6 +7,8 @@ import Footer from './HomePage/Footer/Footer';
 import Header from './HomePage/Header/Header';
 import Gallery from './HomePage/Gallery/Gallery';
 import Services from './Pages/Services/Services';
+import Login from './SignUp/Login/Login';
+import Register from './SignUp/Register/Register';
 function App() {
   return (
     <div >
@@ -17,6 +19,8 @@ function App() {
          <Route path='/services' element={<Services></Services>}/>
          <Route path='/blogs' element={<Blogs></Blogs>}></Route>
          <Route path='/about' element={<AboutMe></AboutMe>}></Route>
+         <Route path='/login' element={<Login></Login>}></Route>
+         <Route path='/register' element={<Register></Register>}></Route>
        </Routes>
      <Footer></Footer>
     </div>
