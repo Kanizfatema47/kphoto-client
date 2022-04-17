@@ -1,23 +1,22 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Header from './HomePage/Header/Header';
-import Banner from './HomePage/Banner/Banner';
+import AboutMe from './Pages/AboutMe/AboutMe';
 import Blogs from './Pages/Blogs/Blogs';
+import Home from './HomePage/Home/Home';
 import Footer from './HomePage/Footer/Footer';
+import Header from './HomePage/Header/Header';
 import Gallery from './HomePage/Gallery/Gallery';
-import GalleryAll from './HomePage/GalleryAll/GalleryAll';
-
 function App() {
   return (
     <div >
-       <Header></Header>
-       <Banner></Banner>
-       <Gallery></Gallery>
-      <Routes>
-          <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-          <Route path='/all' element={<GalleryAll></GalleryAll>}></Route>
-      </Routes>
-      <Footer></Footer>
+      <Header></Header>
+       <Routes>
+         <Route path='/' element={<Home></Home>}/>
+         <Route path='gallery' element={<Gallery></Gallery>}/>
+         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+         <Route path='/about' element={<AboutMe></AboutMe>}></Route>
+       </Routes>
+     <Footer></Footer>
     </div>
   );
 }

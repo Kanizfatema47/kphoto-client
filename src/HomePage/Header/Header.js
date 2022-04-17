@@ -1,30 +1,47 @@
-import React from 'react';
-import { Button, Container, Nav, Navbar} from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
+
+    const [navbar, setNavbar] = useState(false)
+
+    const changeBackground = () => {
+        if(window.scrollY >= 80){
+            setNavbar(true)
+        }
+        else{
+            setNavbar(false)
+        }
+       
+    }
+    window.addEventListener('scroll', changeBackground);
     return (
-        <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" sticky='top' variant="dark">
-                <Container>
-                    <Navbar.Brand href="#home" className='w-25'>React-Bootstrap</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav" className=' d-flex justify-content-between'>
-                        <Nav className="">
-                            <Nav.Link className='pe-5 ms-5' to="/">Home</Nav.Link>
-                            <Nav.Link className='pe-5' to="/gallery">Gallery</Nav.Link>
-                            <Nav.Link className='pe-5' to="/services">Services</Nav.Link>
-                            <Nav.Link className='pe-5' to="/blogs">Blogs</Nav.Link>
-                        </Nav>
-                        <Nav>
-                            <Button>cart</Button>
-                            <Nav.Link to="/login">Login</Nav.Link>
-                            <Nav.Link to="/register">Register</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-        </div>
+
+        <>
+            <header className={navbar ? 'header active' : 'header'}>
+                <div className="navbar container d-flex flex-row justify-content-between align-items-center">
+                    <nav>
+                        <Link className='' to='/'>Logo</Link>
+                    </nav>
+                    <nav>
+                        <Link className='' to='/'>Home</Link>
+                        <Link className='' to='/gallery'>Gallery</Link>
+                        <Link className='' to='/services'>Services</Link>
+                        <Link className='' to='/blogs'>Blog</Link>
+                        <Link className='' to='/about'>About Me</Link>
+                    </nav>
+                    <nav>
+                        <Link className='' to='/login'>Login</Link>
+                        <Link className='' to='/register'>Register</Link>
+                        
+
+                    </nav>
+                </div>
+            </header>
+        </>
     );
 };
 
 export default Header;
+

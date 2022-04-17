@@ -1,12 +1,12 @@
 import React from 'react';
+import footer from '../../images/footer.jpg'
 
 const Footer = () => {
     return (
-        <div className='container'>
-            <h2>footer</h2>
-            <div className='d-flex  juatify-content-center'>
+        <footer className='' style={{backgroundImage: `url(${footer}` }}>
+            <div className='d-flex container juatify-content-center text-white'>
                 <div className="left-portion ">
-                    <img src="" alt="" srcset="" />
+                    <img src="" alt="" />
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas unde porro.</p>
                 </div>
                 <div className="middle-portion mx-5">
@@ -22,7 +22,7 @@ const Footer = () => {
                     <h4>social icons</h4>
                 </div>
             </div>
-        </div>
+        </footer>
     );
 };
 
