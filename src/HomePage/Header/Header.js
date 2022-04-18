@@ -1,5 +1,9 @@
+import { signOut } from 'firebase/auth';
 import React, { useState } from 'react';
+import { Button } from 'react-bootstrap';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../firebase.init';
 import logo from '../../images/logo (1).png'
 import './Header.css'
 
@@ -17,6 +21,13 @@ const Header = () => {
        
     }
     window.addEventListener('scroll', changeBackground);
+
+
+    const [user] = useAuthState(auth);
+
+    const logout = () =>{
+        signOut(auth)
+    }
     return (
 
         <>
@@ -33,7 +44,10 @@ const Header = () => {
                         <Link className='' to='/about'>About Me</Link>
                     </nav>
                     <nav>
-                        <Link className='' to='/login'>Login</Link>
+                        {
+                            user ? <Button onClick={logout}>LogOut</Button> : <Link className='' to='/login'>Login</Link>
+
+                        }
                         <Link className='' to='/register'>Register</Link>
                         
 
