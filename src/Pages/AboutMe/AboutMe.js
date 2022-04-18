@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <img src={women} alt="" className='' />
                 <div className='d-flex flex-column justify-content-center'>
                     <h1 className='ms-5'>Hi! I'm Kaniz </h1>
-                <p className='ms-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere et maiores, fugiat omnis perferendis ducimus eveniet inventore, quasi sit aliquid dolore tenetur labore eos, ipsam ratione. Optio atque repellat nemo in aperiam?</p>
+                <p className='ms-5'>As a Front End Developer my main goal is to combine technology and design to create inviting, easy-to-use websites for consumers. In order to accomplish this goal, I need to be able to handle all day-to-day duties which will help to develop the overall look and design of a website. </p>
                 <Link to='/' ><button className='bg-dark p-2 text-white mb-4 ms-5 rounded'>Wanna Hire?</button></Link>
                 </div>
             </div>

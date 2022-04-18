@@ -2,31 +2,43 @@
     {
         "id": 1,
         "img": "https://images.unsplash.com/photo-1486916856992-e4db22c8df33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-        "name": "Photography"
+        "name": "Photography",
+        "description": "Perfect in every shots",
+        "price": "$50"
     },
     {
         "id": 2,
         "img": "https://images.unsplash.com/photo-1550879228-c334643b41b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
-        "name": "Photo Shoots"
+        "name": "Photo Shoots",
+        "description": "Perfect in every shots",
+        "price": "$50"
     },
     {
         "id": 3,
         "img": "https://images.unsplash.com/photo-1617783341868-a4515ecac732?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "name": "Portrait Photoes"
+        "name": "Portrait Photoes",
+        "description": "Perfect in every shots",
+        "price": "$50"
     },
     {
         "id": 4,
         "img": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "name": "Travel Photo"
+        "name": "Travel Photo",
+        "description": "Perfect in every shots",
+        "price": "$50"
     },
     {
         "id": 5,
         "img": "https://images.unsplash.com/photo-1523898052899-241108586cf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "name": "People Photo"
+        "name": "People Photo",
+        "description": "Perfect in every shots",
+        "price": "$50"
     },
     {
         "id": 6,
         "img": "https://images.unsplash.com/photo-1595408071774-2debdbbd06ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "name": "wedding Photo"
+        "name": "wedding Photo",
+        "description": "Perfect in every shots",
+        "price": "$50"
     }
 ]

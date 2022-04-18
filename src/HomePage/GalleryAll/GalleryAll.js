@@ -26,10 +26,12 @@ import './GalleryAll.css'
 const GalleryAll = ({ picture }) => {
     return (
 
-        <div className='gallery-details container '>
+       <div className='container'>
+            <div className='gallery-details '>
             <img src={picture.img} alt="" className='rounded' />
 
         </div>
+       </div>
 
     );
 };

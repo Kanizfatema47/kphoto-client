@@ -1,12 +1,9 @@
 .gallery-data{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+    row-gap: 20px;
+}
 
-}
-h2{
-    margin-top: 10px;
-}
 
 @media (max-width: 575.98px) {
     .g-picture{
@@ -16,7 +13,5 @@ h2{
     .gallery-data{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        
-    
     }
 }

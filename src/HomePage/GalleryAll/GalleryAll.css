@@ -1,6 +1,6 @@
 .gallery-details img{
-    width: 400px;
-    height: 350px;
+    width: 350px;
+    height: 330px;
 }
 @media (max-width: 575.98px) {
     .gallery-details{
