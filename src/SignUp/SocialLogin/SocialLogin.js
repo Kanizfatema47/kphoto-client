@@ -21,22 +21,22 @@ const SocialLogin = () => {
             <div style={{ height: '1px' }} className='bg-primary w-50'></div>
         </div>
 
-        <div className=''>
+        <div className='social-inner d-flex flex-row justify-content-center align-items-center'>
             <button onClick={()=> signInWithGoogle()}
              
-                className='btn btn-info w-50 d-block mx-auto my-2'>
+                className='btn btn-none w-50 d-block mx-auto my-2'>
                 <img style={{ width: '30px' }} src={google} alt="" />
-                <span className='px-2'>Google Sign In</span>
+                
             </button>
-            <button className='btn btn-info w-50 d-block mx-auto my-2'>
+            <button className='btn btn-none w-50 d-block mx-auto my-2'>
                 <img style={{ width: '30px' }} src={facebook} alt="" />
-                <span className='px-2'>Facebook Sign In</span>
+                
             </button>
             <button onClick={()=> signInWithGithub()}
                 
-                className='btn btn-info w-50 d-block mx-auto'>
+                className='btn btn-none w-50 d-block mx-auto'>
                 <img style={{ width: '30px' }} src={github} alt="" />
-                <span className='px-2'>Github Sign In</span>
+               
             </button>
         </div>
     </div>

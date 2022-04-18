@@ -2,3 +2,12 @@
     width: 400px;
     height: 350px;
 }
+@media (max-width: 575.98px) {
+    .gallery-details{
+        margin-top: -20px;
+    }
+    .gallery-details img{
+        width: 330px;
+        height: 250px;
+    }
+}

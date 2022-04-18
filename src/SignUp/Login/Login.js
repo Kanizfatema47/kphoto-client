@@ -6,6 +6,7 @@ import auth from '../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Loading from '../../Shared/Loading/Loading';
 
 const Login = () => {
     const [
@@ -31,6 +32,9 @@ const Login = () => {
     if (error) {
         errorElement = <p className='text-danger'>Error: {error?.message}</p>
     }
+    if (loading || sending) {
+        return <Loading></Loading>
+    }
 
 
     const resetPassword = async () => {
@@ -53,9 +57,9 @@ const Login = () => {
 
     return (
         <div>
-            <div className='container w-50 mx-auto'>
+            <div className='container w-25 mx-auto'>
 
-                <h2 className='text-primary text-center mt-2'>Please Login</h2>
+                <h2 className='text-primary text-center mt-5 mb-5'>Please Login</h2>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />

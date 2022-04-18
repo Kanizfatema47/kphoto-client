@@ -26,3 +26,19 @@
   nav a:hover{
       color: #088F8F;
   }
+
+  @media (max-width: 575.98px) { 
+    header .nav-section .nav-inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header .nav-section .nav-inner h2{
+        font-size: 18px !important;
+    }
+    header .nav-section .nav-inner site{
+        font-size: 8px !important;
+    }
+
+    
+}

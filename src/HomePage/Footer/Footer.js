@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
                 <div className="middle-portion mx-5">
                     <h4>Site Map</h4>
-                    <div className='d-flex flex-column '>
+                    <div className='d-flex flex-column pages'>
                         <Link  to='/'><p>Home</p></Link>
                         <Link to='/gallery'><p>Gallery</p></Link>
                         <Link to='/blogs'><p>Blogs</p></Link>

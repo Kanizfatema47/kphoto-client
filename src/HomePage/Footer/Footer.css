@@ -16,5 +16,43 @@ footer{
 }
 .social-icons a{
     color: #088F8F;
+    padding-left: 10px;
 
+}
+
+@media (max-width: 575.98px){
+    footer .pages p{
+        font-size: 16px;
+    }
+    footer .footer-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .footer-inner {
+             display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+    }
+    footer .footer-section .footer-inner  h2{
+        font-size: 18px !important;
+    }
+    footer .footer-section .middle-portion h4{
+        font-size: 16px ;
+    }
+    footer .footer-section .middle-portion p{
+        font-size: 12px;
+    }
+    footer .footer-section .social-icons h4{
+        font-size: 16px;
+    }
+    .social-icons img{
+        width: 20px;
+        height: 20px;
+    }
+    .social-icons a{
+        padding-left: 8px;
+    }
 }

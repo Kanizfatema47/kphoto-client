@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import image from '../../images/404.png'
 const NotFound = () => {
     return (
-        <div className='w-4/12 h-4/12 m-auto'>
-            <img src={image} className='' alt=''/>
+        <div className='d-flex flex-column justify-content-center align-items-center'>
+            <img src={image} className=' w-50 h-50' alt=''/>
             <Link
             to='/'
-            className='grid grid-rows-1 rounded-full text-center text-lg font-bold mb-2 py-2 px-3 text-white mt-3 bg-pink-600 sm:w-auto sm:mb-0'>
+            className=' rounded text-center  mb-2 py-2 px-3 text-white bg-dark'>
             Back to homepage
           </Link>
         </div>

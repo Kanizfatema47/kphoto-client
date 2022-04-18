@@ -32,9 +32,9 @@ const Register = () => {
 
     return (
 
-        <div className='container w-50 mx-auto'>
+        <div className='container w-25 mx-auto'>
 
-            <h2 className='text-primary text-center mt-2'>Please Register</h2>
+            <h2 className='text-primary text-center mt-5 mb-5'>Please Register</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicName">
                     <Form.Control ref={nameRef} type="text" placeholder="Enter Name" />

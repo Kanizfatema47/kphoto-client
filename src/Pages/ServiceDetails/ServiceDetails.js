@@ -9,7 +9,7 @@ const ServiceDetails = ({service}) => {
             <img src={service.img} alt="" className='rounded' />
             <h3 className='mt-3'>{service.name}</h3>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <Link to='/checkout'><button className='bg-dark ps-3 pe-3 text-white mb-4'>More Photoes</button></Link>
+            <Link to='/checkout'><button className='rounded bg-dark ps-3 pe-3 text-white mb-4'>More Photoes</button></Link>
         </div>
         </>
     );

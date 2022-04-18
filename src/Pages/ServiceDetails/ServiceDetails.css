@@ -2,3 +2,9 @@
     width: 350px;
     height: 300px;
 }
+@media (max-width: 575.98px){
+    .service-details img{
+        width: 330px;
+        height: 250px;
+    }
+}

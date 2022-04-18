@@ -26,7 +26,7 @@ import './GalleryAll.css'
 const GalleryAll = ({ picture }) => {
     return (
 
-        <div className='gallery-details '>
+        <div className='gallery-details container '>
             <img src={picture.img} alt="" className='rounded' />
 
         </div>
