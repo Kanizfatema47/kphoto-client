@@ -11,10 +11,11 @@ const AboutMe = () => {
             </div>
             <div className='women d-flex flex-row justify-content-center align-items-center container m-5 p-5'> 
                 <img src={women} alt="" className='' />
-                <span className='d-flex flex-column justify-content-center'>
+                <div className='d-flex flex-column justify-content-center'>
+                    <h1 className='ms-5'>Hi! I'm Kaniz </h1>
                 <p className='ms-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere et maiores, fugiat omnis perferendis ducimus eveniet inventore, quasi sit aliquid dolore tenetur labore eos, ipsam ratione. Optio atque repellat nemo in aperiam?</p>
-                <Link to='/' ><button className='bg-dark p-2 text-white mb-4 ms-5 rounded'>More Photoes</button></Link>
-                </span>
+                <Link to='/' ><button className='bg-dark p-2 text-white mb-4 ms-5 rounded'>Wanna Hire?</button></Link>
+                </div>
             </div>
         </div>
     );

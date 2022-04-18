@@ -12,17 +12,22 @@ const Login = () => {
         loading,
         error,
       ] = useSignInWithEmailAndPassword(auth);
-      
+      let errorElement;
       const emailRef = useRef();
       const passwordRef = useRef();
 
 
       const navigate = useNavigate();
 
+  
 
       if(user){
         navigate ('/checkout');
       }
+
+      if (error) {
+        errorElement = <p className='text-danger'>Error: {error?.message}</p>
+    }
 
 
       const handleSubmit =(event)=>{
@@ -47,10 +52,11 @@ const Login = () => {
                     <Button variant="primary w-50 mx-auto d-block mb-2" type="submit">
                         Login
                     </Button>
+                    
                 </Form>
-
+                    {errorElement}
                 <p>New? <Link to="/register" className='text-primary pe-auto text-decoration-none' >Please Register</Link> </p>
-                <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' >Reset Password</button> </p>
+                <p>Forget Password? <button  className='btn btn-link text-primary pe-auto text-decoration-none' >Reset Password</button> </p>
                 <SocialLogin></SocialLogin>
 
             </div>

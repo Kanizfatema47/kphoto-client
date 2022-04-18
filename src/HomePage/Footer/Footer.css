@@ -4,8 +4,11 @@ footer{
     color: #5F9EA0;
 }
 .footer-section a{
-    color: #088F8F;
+    color: #5F9EA0;
     text-decoration: none;
+}
+.footer-section a:hover{
+    color: #088F8F;
 }
 .social-icons img{
     width: 30px;

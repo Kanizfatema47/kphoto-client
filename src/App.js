@@ -11,6 +11,7 @@ import Login from './SignUp/Login/Login';
 import Register from './SignUp/Register/Register';
 import RequiredAuth from './HomePage/RequiredAuth/RequiredAuth';
 import CheckOut from './HomePage/CheckOut/CheckOut';
+import NotFound from './Pages/NotFound/NotFound';
 function App() {
   return (
     <div >
@@ -34,6 +35,7 @@ function App() {
          }/>
          <Route path='/login' element={<Login></Login>}></Route>
          <Route path='/register' element={<Register></Register>}></Route>
+         <Route path ='*' element={<NotFound></NotFound>}></Route>
        </Routes>
      <Footer></Footer>
     </div>
