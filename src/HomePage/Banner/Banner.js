@@ -13,35 +13,35 @@ const Banner = () => {
                 <Carousel.Item interval={1000} className=''>
                     <img src={banner1} alt='' className=' '/>
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
+                        <h1>The Wild Life</h1>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500} className=''>
                 <img src={banner2} alt=''className=''/>
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
+                        <h1>The Wild Life</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500} className=''>
                 <img src={banner3} alt=''className=' '/>
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
+                        <h1>The Wild Life</h1>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item >
                 <Carousel.Item interval={500} className=''>
                 <img src={banner4} alt=''className=' '/>
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
+                        <h1>The Wild Life</h1>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500} className=''>
                 <img src={banner5} alt=''className=' '/>
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
+                        <h1>The Wild Life</h1>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>

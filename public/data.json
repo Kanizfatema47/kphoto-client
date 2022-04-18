@@ -91,14 +91,14 @@
         "img": "https://images.unsplash.com/photo-1505129039666-fd1461c14ce5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
     },
     {
-        "id": 13,
+        "id": 14,
         "name": "Giraffe",
         "category": "wild",
         "place": "Africa",
         "img": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
     },
     {
-        "id": 13,
+        "id": 15,
         "name": "Giraffe",
         "category": "all",
         "place": "Africa",

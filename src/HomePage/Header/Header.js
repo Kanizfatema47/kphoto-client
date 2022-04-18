@@ -33,8 +33,9 @@ const Header = () => {
         <>
             <header className={navbar ? 'header active' : 'header'}>
                 <div className="navbar container d-flex flex-row justify-content-between align-items-center">
-                    <nav>
+                    <nav className='d-flex flex-rows justify-content-center align-items-center'>
                         <Link className='' to='/'><img src={logo} alt="" style={{'color': `#5F9EA0`}} /> </Link>
+                        <h2 className='fs-3'>KPhoto</h2>
                     </nav>
                     <nav>
                         <Link className='' to='/'>Home</Link>

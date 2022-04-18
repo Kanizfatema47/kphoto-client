@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <img src={women} alt="" className='' />
                 <span className='d-flex flex-column justify-content-center'>
                 <p className='ms-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere et maiores, fugiat omnis perferendis ducimus eveniet inventore, quasi sit aliquid dolore tenetur labore eos, ipsam ratione. Optio atque repellat nemo in aperiam?</p>
-                <Link to='/' ><button className='ms-5'>Wanna Hire?</button></Link>
+                <Link to='/' ><button className='bg-dark p-2 text-white mb-4 ms-5 rounded'>More Photoes</button></Link>
                 </span>
             </div>
         </div>

@@ -1,3 +1,17 @@
-.footer-inner p {
+
+footer{
+    background-color: black;
+    color: #5F9EA0;
+}
+.footer-section a{
     color: #088F8F;
+    text-decoration: none;
+}
+.social-icons img{
+    width: 30px;
+    height: 30px;
+}
+.social-icons a{
+    color: #088F8F;
+
 }
